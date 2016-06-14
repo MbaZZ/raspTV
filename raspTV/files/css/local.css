@@ -1,0 +1,50 @@
+body{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:red;
+	cursor:none;
+}
+
+#local_home{
+/* 	color: #ffffff; */
+/* 	font-family: Arial; */
+/* 	font-size: 12px; */
+/* 	font-weight: bold; */
+/* 	line-height: 14px; */
+/* /* 	background-image:linear-gradient(black, white); */ */
+/* 	height:100%; */
+	padding-top:20px;
+}
+#local_home .panel-body{
+/* 	background:black; */
+color:black;
+}
+
+.daylabel{
+	color:white;
+}
+#heure, #date{
+	font-size:200%;
+	
+/* 	height:500px; */
+	color:white;
+}
+#heure{
+	text-align:right;
+}
+.small{
+	font-size:75%;
+}
+#date{
+	text-align:left;
+}
+.content{
+	font-size:150%;
+}
+.content b{
+	font-size:160%;
+	color:white;
+}

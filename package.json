@@ -1,0 +1,29 @@
+{
+  "name": "BriquesGL",
+  "description": "",
+  "version": "0.0.1",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "*",
+    "omx-manager": "*",
+  },
+  "devDependencies": {
+    "babel-core": "~6.9.0",
+    "babel-preset-es2015": "~6.9.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register src/tests/tests.js",
+    "startWeb": "node src/server/web",
+    "startGame": "node src/server/game/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MbaZZ/Briquesgl.git"
+  },
+  "keywords": [
+    "react",
+    "Treejs",
+    "WebGL"
+  ]
+}

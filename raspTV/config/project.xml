@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configure>
+	<defaultUrl>video/home</defaultUrl>
+	<layoutName>template.php</layoutName>
+	<projectMod>dev</projectMod> <!-- /prod/preprod/dev -->
+
+	<globalInterceptors>
+		<!-- interceptor class="auth" / -->
+		<interceptor class="jquery"/>
+	</globalInterceptors>
+	<ressourcesDisponibles>
+		<request controller="video" action="home" synchrone="true"/>
+		<request controller="raspTV" action="home" synchrone="true"/>	
+		<request controller="video" action="" synchrone="true"/>
+	<request controller="fichiers" action="js" synchrone="true"/><request controller="fileBrowser" action="home" ajax="true"/><request controller="fichiers" action="js" ajax="true"/><request controller="local" action="home" synchrone="true"/></ressourcesDisponibles>
+</configure>
