@@ -1,5 +1,5 @@
 {
-  "name": "BriquesGL",
+  "name": "raspTV",
   "description": "",
   "version": "0.0.1",
   "main": "app.js",
@@ -7,11 +7,9 @@
     "socket.io": "*",
     "omx-manager": "0.0.3"
   },
-  "scripts": {
-  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/MbaZZ/raspTV"
   },
   "scripts": {
     "start": "node nodeControl/app.js"
